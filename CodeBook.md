@@ -36,7 +36,10 @@ The following files are available for the train and test data. Their description
 - 'train/Inertial Signals/body_acc_x_train.txt': The body acceleration signal obtained by subtracting the gravity from the total acceleration. 
 - 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
 
-
+The data used in the output file:
+subject - integers from 1-30 representing the subjects
+act - one of 6 acts - Laying, Sitting, Standing, Walking, Walking_Downstairs, Walking_Upstairs
+The rest of the variables pull mean and standard deviations from the accelerometers in the X,Y,Z axis and time domain signals for frequency readings
 
 Transformations:
 1. The data was read in from the different sets in the source data.
